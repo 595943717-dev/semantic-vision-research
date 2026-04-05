@@ -59,3 +59,7 @@ Notes
 This is a personal research project in computer vision.
 
 The model is based on my own modifications and experiments on an existing technical direction, and is not currently associated with a published paper.
+
+License
+
+MIT
