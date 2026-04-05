@@ -34,25 +34,28 @@ environment.yml      environment setup
 ```bash
 conda env create -f environment.yml
 conda activate semantic-vision
-
-
 Usage
 python train.py
 python eval.py
-
-## Example Output
+Example Output
 
 Below is an example of model output during evaluation:
+
 Input: scene image
 Detected structures: 3
 Vanishing points: [(120, 340), (560, 300), (400, 120)]
 Evaluation score: 0.87
 
-
 Visualization example:
 
-- predicted structural lines
-- semantic feature alignment
-- vanishing point estimation
+predicted structural lines
+semantic feature alignment
+vanishing point estimation
 
-> Note: Results are for demonstration purposes and may vary depending on dataset and configuration.
+Note: Results are for demonstration purposes and may vary depending on dataset and configuration.
+
+Notes
+
+This is a personal research project in computer vision.
+
+The model is based on my own modifications and experiments on an existing technical direction, and is not currently associated with a published paper.
